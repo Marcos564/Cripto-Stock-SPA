@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  color: #dad7cd;
+  background-color: #588157;
+  justify-content: center;
+  align-items: center;
+  padding: .8rem;
+  display: flex;
+}
+
+#img-logo {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 12px;
+}
+
+#img-logo:hover {
+  cursor: pointer;
+}
+
+body {
+  text-align: center;
+  background-color: #dad7cd;
+  font-family: sans-serif;
+}
+
+.content {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.coin {
+  background-color: #a3b18a;
+  border-radius: .3rem;
+  margin: .4rem;
+  padding: 1.1rem;
+  display: inline-block;
+}
+
+.imgCoin {
+  width: 25px;
+  height: 25px;
+}
+
+.FAQS {
+  background-color: #588157;
+  border-radius: .3rem;
+  margin: 2rem;
+  padding: .8rem;
+  font-family: sans-serif;
+}
+
+.faq {
+  cursor: pointer;
+  background-color: #a3b18a;
+  padding: .7rem;
+}
+
+.question h3 {
+  font-size: 1.5rem;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+}
+
+.faq.active .answer {
+  background-color: #639;
+  border-style: solid;
+  border-radius: 4px;
+  max-height: 300px;
+  padding: 2vh;
+}
+/*# sourceMappingURL=api-criptos.3a01df49.css.map */

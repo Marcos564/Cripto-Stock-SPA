@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+header{
+    background-color: #588157;
+    padding: 0.8rem;
+    color: #DAD7CD;
+
+    display: flex;
+    align-items: center;
+    justify-content: center; /*alinea horizontalmente*/
+}
+
+#img-logo{
+    width: 4rem;
+    height: 4rem;
+    margin-right: 12px;  /*para que no este pegado al titulo*/
+}
+
+#img-logo:hover{
+    cursor: pointer;  
+}
+
+body{
+    background-color: #dad7cd;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.content{
+    display: flex; /*para que no salga una debajo de la otra*/
+    flex-wrap: wrap;
+}
+
+.coin{
+    background-color: #a3b18a;
+    padding: 1.1rem;
+    margin: 0.4rem;
+    border-radius: 0.3rem;
+    display: inline-block;  /*para que no ocupe todo el ancho, solo el necesario*/
+}
+
+.imgCoin{
+    width: 25px;
+    height: 25px;
+}
+
+.coin h3{
+    cursor: pointer;
+}
+
+
+#top5{
+    margin: 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*----------CSS DE FAQ--------------*/
+
+.FAQS{
+    margin: 2rem;
+    padding: 0.8rem;
+    margin-top: 4rem;
+    border-radius: 0.3rem;
+    font-family: sans-serif;
+    background-color: #588157;
+}
+
+.faq{
+    background-color: #a3b18a;
+    cursor: pointer;
+    padding: 0.7rem;
+}
+
+.question h3{
+    font-size: 1.5rem;
+}
+
+.answer{
+    max-height: 0;
+    overflow: hidden;  /*para ocultar las respuestas*/
+}
+
+.faq.active .answer{
+    max-height: 300px; 
+    border-radius: 0.8rem;
+    padding: 2vh;
+    margin-top: 0.6rem;
+    background-color: #588157;
+}
+
+footer{
+    
+    background-color: #588157;
+    font-weight: bold;
+    
+    align-items: center;
+}
+
+hr{
+    width: 90%;
+    margin: auto;
+    border-color: black;
+}
+
+.footer_derecho{
+    
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+
+}
+
+.footer_izquierdo{
+    display: flex;
+    margin-left: 1rem;
+    align-items: center;
+}
+
+.container_footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+}
+
+
+.icon_fontawesome{
+    width: 2rem;
+    height: 2rem;
+    margin: 0.5rem;
+    color: black;
+    padding-top: 1.6rem;
+}
+
+#copyright{
+    padding-top: 1.1rem; padding-bottom: 0.2rem;
+}

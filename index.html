@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/style.css">
+    <title>WebApp de criptomonedas</title>
+</head>
+
+<header>
+    <img src="images/1213709.png" alt="" id="img-logo">
+    <h1 id="main-tittle"> Cripto - Stock </h1>
+</header>
+
+
+<body>
+
+    <div class="content" id="content"> </div>  <!--En este div se ponen las criptomonedas-->
+
+    <br>
+    <h2 style="margin-top: 3rem;">Top 5 CriptoMonedas: </h2>   <!-- DIV de la grafica -->
+    <div style="width: 800px; display: flex;  justify-content: center;margin: 0 auto;"><canvas id="top5"></canvas></div>
+
+
+    <h2 style="margin-top:3rem">Grafica de Bitcoin : </h2>
+    <div style="width: 800px; margin:auto"><canvas id="grafico_bitcoin"></canvas></div>
+
+
+    <div class="FAQS">
+        <h2>Preguntas frecuentes</h2>
+
+        <div class="faq">
+            <div class="question">
+                <h3>¿Que son las Criptomonedas?</h3>
+            </div>
+            <div class="answer">
+                <p>Una criptomoneda es un activo digital que emplea un cifrado criptográfico para garantizar su titularidad y asegurar la integridad de las transacciones, y controlar la creación de unidades adicionales, es decir, evitar que alguien pueda hacer copias como haríamos, por ejemplo, con una foto. Estas monedas no existen de forma física: se almacenan en una cartera digital.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="question">
+                <h3>¿Que es Blockchain?</h3>
+            </div>
+            <div class="answer">
+                <p>Es una base de datos compartida o distribuida donde la información registrada está almacenada en bloques, ligados entre sí criptográficamente, y validada de una forma descentralizada a través de un protocolo común.</p>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="question">
+                <h3>¿Que es Bitcoin?</h3>
+            </div>
+            <div class="answer">
+                <p>Bitcoin es una moneda digital descentralizada que permite transferencias sin necesidad de bancos.</p>
+            </div>
+        </div>
+        
+
+    </div>
+    
+
+    <footer>
+        
+        <div class="container_footer">
+
+        <div class="footer_izquierdo">
+            <img src="images/1213709.png" alt="" style="width: 4rem; height: 4rem; margin: 0.6rem;">
+            <p>Cripto - Stock</p>
+        </div>
+
+        <div class="footer_derecho">
+            <a href="https://www.linkedin.com/in/marcos-luque-a431a71b0/"> <ion-icon name="logo-linkedin" class="icon_fontawesome"></ion-icon></a>
+            <a href="https://github.com/Marcos564"> <ion-icon name="logo-github" class="icon_fontawesome">  </ion-icon></a>
+        </div>
+
+        </div>
+
+        <hr>
+        <p id="copyright">Website made with ❤️ by Luque Marcos </p>
+
+        
+    </footer>
+
+
+    <script src="app.js" type = "module"></script>
+    <script src="faqs.js" type="module"></script>
+ 
+    <!--  Script de ioicon -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!--<script type="module" src="acquisitions.js"></script>  -->
+</body>
+</html>
