@@ -6,3 +6,6 @@ Para ejectutar solo la landing page con las criptomonedas, basta con hacer un Op
 ![Captura de pantalla](images/hero_cripto.png)
 
 ![Captura de pantalla](images/grafico_bitcoin.png)
+Nota: este gráfico es creado con chart.js
+
+![Captura de pantalla](images/footer_crypto.png)
